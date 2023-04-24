@@ -1,0 +1,11 @@
+body{background-color: #000000;}
+h1{color: #260101; font-size: 40px; background-color: #2A8C82;}
+h2{background-color: #41BFB3; font-family: Georgia, 'Times New Roman', Times, serif;}
+p{background-color: #9BF2EA;}
+
+/* Color Theme Swatches in Hex */
+.The-Black-and-Red-1-hex { color: #2A8C82; }
+.The-Black-and-Red-2-hex { color: #41BFB3; }
+.The-Black-and-Red-3-hex { color: #9BF2EA; }
+.The-Black-and-Red-4-hex { color: #275950; }
+.The-Black-and-Red-5-hex { color: #260101; }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+        div{background-color: antiquewhite;
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        border: 2px black;
+        border-radius: 50px;
+        background-image: linear-gradient(to bottom, #034159, #025951, #02735E, #038C3E);
+        }
+        #d01,#d03,#d05{
+            background-image: linear-gradient(to bottom, #ff0404, #19e41286);
+        }
+        div#d05:hover{
+            background-color: aqua;
+        }
+        div#d05:active{
+            background-image: linear-gradient(to bottom, #034159, #025951, #02735E, #038C3E);
+        }
+    </style>
+</head>
+<body>
+    <div id="d01">01</div>
+    <div id="d02">02</div>
+    <div id="d03">03</div>
+    <div id="d04">04</div>
+    <div id="d05">05</div>
+</body>
+</html>

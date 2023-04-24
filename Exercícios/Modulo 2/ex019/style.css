@@ -1,0 +1,19 @@
+@charset "UTF-8"
+body{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: lightskyblue;
+}
+
+#primeiro{
+    background-color: aquamarine;
+}
+
+.doze{
+    background-color: blueviolet;
+}
