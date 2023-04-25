@@ -150,6 +150,10 @@ aside > ul{
     list-style-type: "\2714\00a0" ;
     list-style-position: inside;
     columns: 2;
+    
+}
+aside > p{
+    padding-top: 16px;
 }
 aside > h3{
     text-indent: 20px;
@@ -163,8 +167,8 @@ footer a:hover{
     text-decoration: underline;
     color: var(--cor1);
     background-color: var(--cor4);
-    padding: 5px;
-    border-radius: 20px;
+    padding: 8px;
+    border-radius: 10px;
 }
 a.externo::after{
     content: "\00A0\1F517";
