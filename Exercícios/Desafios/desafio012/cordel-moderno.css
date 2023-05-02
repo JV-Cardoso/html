@@ -6,10 +6,11 @@ body{
 }
 main{
     background-color: white;
+    box-shadow: 0px -10px 1px rgba(255, 255, 255, 0.979);
 }
 header{
     color: white;
-    padding: 50px;
+    padding: 60px;
     text-align: center;
     min-height: 150px;
 }
@@ -17,15 +18,19 @@ header > h1{
     font-family:'Arial','Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 600%;
+    padding-bottom: 30px;
 }
 header p{
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
+header strong:hover{
+    text-decoration: underline;
+}
 main p{
     line-height: 55px;
-    font-size: 250%;
+    font-size: 280%;
     text-align: left;
     padding-left: 35px;
     width: 93%;
@@ -77,9 +82,10 @@ div.letra2{
     padding-right: 10px;
     color: white;
     position: absolute;
+    background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0.404);
     text-shadow: 1px 1px 1px black;
-    top: 20%;
+    top: 2%;
     left: 10%;
 }
 footer p,a{
@@ -100,7 +106,4 @@ footer a:active{
 padding: 8px;
 border-radius: 10px;
 background-color: darkgray;
-}
-.espaba{
-    padding-bottom: 80px;
 }
