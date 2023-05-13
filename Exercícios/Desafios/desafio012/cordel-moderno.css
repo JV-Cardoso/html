@@ -7,7 +7,6 @@ margin: 0%;}
 /*CORPO*/
 body{
     background-color: black;
-    width: 100%;
 }
     
 
@@ -34,17 +33,16 @@ header strong:hover{
 main{
     background-color: white;
     box-shadow: 0px -10px 1px rgba(255, 255, 255, 0.979);
-    width: 100%;
+    min-width: auto;
     padding-right: 100%;
 }
 main p{
-    line-height: 55px;
+    line-height: 15vh;
     font-size: 4vw;
     text-align: left;
     padding-left: 35px;
-    width: 93%;
-    min-height: 500px;
-    max-width: 1000px;
+    min-width: 50vw;
+    min-height: 400px;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -56,6 +54,7 @@ main article p.p2{
 
     /*IMAGEM 1 E ESCRITAS DAS IMAGENS 1 E 2*/
 div.flor{background-image: url(imagens/background001.jpg);
+    min-width: 96.7vw;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -64,7 +63,11 @@ div.flor{background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 200vh;
-    position: relative;}
+    position: relative;
+    box-shadow: inset 1px 5px 10px rgba(0, 0, 0, 0.705);
+   
+}
+
 div.letra{
     color: white;
     background-color: rgba(0, 0, 0, 0.616);
@@ -73,6 +76,7 @@ div.letra{
     margin-left: 30px;
     padding-right: 25px;
     border-radius: 30px;
+    text-shadow: 2px 1px 1px black;
 }
     
 
@@ -87,7 +91,9 @@ div.livro{
     background-size: cover;
     background-repeat: no-repeat;
     height: 200vh;
-    position: relative;}
+    width: 96.7vw;
+    position: relative;
+}
 
 /* RODAPE */
 footer p,a{
