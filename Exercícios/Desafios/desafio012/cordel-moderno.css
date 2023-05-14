@@ -58,11 +58,11 @@ div.flor{background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-position: center right;
+    background-position: right center;
     background-size: 140%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200vh;
+    height: 150vh;
     position: relative;
     box-shadow: inset 1px 5px 10px rgba(0, 0, 0, 0.705);
    
@@ -86,11 +86,11 @@ div.livro{
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-position: center center;
+    background-position: right bottom;
     background-size: 140%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200vh;
+    height: 150vh;
     width: 96.7vw;
     position: relative;
 
