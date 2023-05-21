@@ -9,7 +9,26 @@ html, body{
     width: 100vw;
     background-color: black;
 }
+body{
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 main{
     height: 100vh;
     position: relative;
+}
+section#celular{
+    border-radius: 50px;
+    height: 627px;
+    width: 311px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
 }
