@@ -1,0 +1,225 @@
+GITHUB PUBLICO: github.com/gustavoguanabara
+GITHUB PRIVADO: gustavoguanabara.github.io
+Vídeo: https://youtu.be/TNQsmPf24go
+UTF-8 olhar
+Armazenamento: Byte (Baite)
+Transmissão: Bite (Bite)
+Modem: Aparelho que faz modulação: converte onda quadrada em senoidal | Demodulação: converte onda senoidal em quadrada
+TLDs = GTLD ou CCTLD : GTLD = Genérico  CCTLD = Para representar para países
+Domício, subdomínio, TLD, caminho
+HTML: linguagem focada em conteúdo
+-----------------------------------------------------------------------
+Estrutura de documento HTML;
+1ª linha: <<!DOCTYPE html>
+2ª linha: <<html lang="pt-br"
+Ultima linha: </html>
+<head> </head>
+<body> </body>
+Ler caracteres em português, ex: acentos e cedilhas: Dentro de head; <meta charset="UTF-8"> 
+Para ocupar a tela inteira de espaços brancos: Dentro de head; (meta name="viewport" contente="width=device-width, inictial-scale=1.0">
+Título = <title>Document</title>
+-----------------------------------------------------------------------
+unsplash = Imagens gratuitas para usar
+pexels = Imagens gratuitas para usar
+gimp = Programa
+
+Head = Configurações
+Body = Conteúdo
+hr = Linha horizontal (Horizontal Row)
+Título = Parágrafo de primeira linha
+p = Parágrafo
+br = quebrar linhas (Break Row)
+<> = < = &lt; > = &gt;    lt = less than    gt = greater than
+Comentário EM HTML = <!-- ESCREVER -->
+Comentário EM CSS = /* ESCREVER */
+Emoji = antes usar &#x(No lugar dos parenteses.. utilizar o código encontrado no emojipedia) e finalizar com ;
+e
+PNG: Arquivos com tranparencia  e com maior qualidade
+JPEG: imagens com excesso de compactação
+Tamanho padrão: 1500 largura
+Resolução: 70...50...
+TAG IMG: <img src="" alt="">
+Entre as aspas, coloque o arquivo e o nome para apoio
+lorem = cria um texto aleatório
+Níveis de título = São até h6
+Negrito = tag: b ou "strong"
+Itálico: = tag i ou "em"
+envelopar elemento selecionado: ctr + shift + p
+marcar texto como se fosse uma caneta = mark
+letras grandes = CSS ou tag obsoleta bIG
+Letras pequenas = tag small
+ricar texto = tag s
+texto como excluido = tag dell
+texto inserido ou sublinhado = ins
+sobrescrito = sup
+subscrito =  sub
+monoespaçado = tag code
+indentação = pre
+Sitação = simples = tag q (quote)  completa = blockquote
+parámetro de sitação = cite"" depois do blockquote
+Abreviação = tag = abbr (Irá aparecerr um título para colocar descrição
+Texto invertido = bdo l ou r de direita ou de esquerda
+Listas
+Lista Ordenadas:ol and li dentro   /li (Opcional)
+parámetro de ol = type=""
+lista não ordenadas: ul and li dentro
+parámetro de ul = type=""
+Colocar mais de um cursor nas tags = segurar o alt e clicar na tag
+Lista de definição = dl (Definicion list), dt = Termo, dd = Descrição
+Colocar links externos = tag a (Ancora)
+parámetro de ancora target="_blank" para dizer que é um página externa = rel="external" página posterior e anterior = next and prev
+links SEM CONFIANÇA parámetro = nofollow
+Voltar uma pasta: ../ própria pasta ./
+text-transform: uppercas = Letra maiúsculas
+font-variant: small-caps = Primeira letra Maiúscula
+---------------------
+adaptação de imagens = tag = picture dentro dela, siga o exemplo abaixo
+<picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="FOTO FLEXIVEL"> 
+
+    </picture>
+Vídeo sobre isso: https://www.youtube.com/watch?v=cAgkwPWE4hU&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=32
+---------------------
+audio = tag = audio, parámetro de controle de incicio = controls, parámetro para iniciar = autoplay source src"" dentro da tag video ou audio para abrir diversos formatos 
+vídeo = tag = vídeo, parámetro de controle de incicio = controls, parámetro para iniciar = autoplay source src"" dentro da tag video ou audio para abrir diversos formatos
+
+CSS
+style {}
+mudar cor de fundo: backgroung-color
+mudar cor da letra: color
+mudar tamanho da letra: font-size XXpx ou em
+mudar tipo de letra: font-family XXpx
+style.css para criar páginas com estilos padrão
+css regras com acentuação, colocar no inicio: @charset "UTF-8";
+sublinhar com CSS = text-decoration: underline;
+alinhar / justificar texto = text-align: LADO QUE VAI FICAR
+----------------------------
+CORES
+Circulo Cromático
+Cores Primárias = Vermelho, Amarelo e Azul
+Cores Segundárias = Laranja, Violeta e Verde
+Cores Terciárias = Amarelo-esverdeado, Amarelo=alaranjado, Vermelo-arroxeado, Azul-arroxeado e Azul-esverdeado Vermelho-alaranjado
+Temperatura de cores
+Cores Frias = Azul, Violeta, Verde, Amarelo-esverdeado, Azul-arroxeado, Azul-esverdeado
+Cores quentes = Vermelho, Amarelo, Laranja, Amarelo=alaranjado, Vermelo-arroxeado, Vermelho-alaranjado
+Cores contrastantes/complementares sãos as imediatamente opostas, ou seja
+violeta x amarelo, azul arroxeado x amarelo-alaranjado, azul x laranja, azul esverdeado x vermelho alaranjado, verde x vermelho, 
+amarelo esverdeado x vermelho arroxeado, 
+cores análogas = cores imediatamente aos lados
+cores análogas relacionadas = 2 imadiatamente ao lado, pula uma e pega a seguinte
+Cores intercaladas
+Cores triádicas = pega uma cor, pula 3... pega outra, pula mais 3 e pega outra
+Cores quadráticas = parecida com cores triádicas, mas, pula só 2
+Monocromia = Usar uma cor e mudar saturação e luminosidade
+----------------------------------
+Gradiente = background-image: linear-gradient(LADO ou ANGULOdeg, ex: to right ou 45deg, COR, ex: white), radial-gradient(FORMA, ex: circle, cor(es)
+Configurações globais = *{ex: height}
+espacinho em branco após letras / acolchoamento / engordadinha = padding
+centralizar conteúdo = margin: auto; / borda externa, borda para fora
+arredondar raio da borda = border-radius
+sombra no MAIN = box-shadow (parámetros = direita, baixo, espalhar e cor
+----------------------------------------
+Tamanhos
+Medidas Absolutas = cm (Centimetro), mm (Milimetro), in (Polegada), px (Pixel), pt (Ponto), pc (Paica)
+Medidas Relativas = em (Medida relativa ao tamanho atual da fonte), ex (Relativo a ALTURA x de ums fonte), 
+rem (Relativo a fonte configurada no body), vw (Largura relativa a viewport), vh (Altura relativa a viewport, % (Porcentagem)
+weight = peso, width = largura, height = altura
+shorthand font
+ordem = 1º = font-style, 2º = font-weight, 3º = font-size, 4º = font-family 
+Font interessante = 'Fredericka the Great', cursive
+--------------------------
+@font-face{
+        font-family: 'Soung';
+            src: url('fontes/Glossy Sheen Shadow DEMO.ttf') format('truetype'), url('fontes/FrederickatheGreat-Regular.ttf') format('truetype'),  ,url('fontes/FrederickatheGreat-Regular.ttf') format('truetype'), url('fontes/Glossy Sheen Regular DEMO.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;}    
+--------------------------
+@import url('https://fonts.googleapis.com/css2?family= Fredericka +the+Great & display=swap');
+---------------------------
+text-indent = alinhamento inicial/parágrafo em PX, ex: text-indent 35px
+ID em html = # em css = USADO EM UM ELEMENtO POR NOME
+class em html = . em css = PODE SER USADO EM VARIOS ELEMENTOS COM O MESMO NOME
+hover = passando o mouse em cima
+active = clicar
+none = configs padrão
+visit = referente a links já visitados
+pseudo-classe = são relacionados a estados temporários identificado por :
+pseudo-elemento = altera especificamente o conteúdo das classes/ids, classificado por dois dois pontos (::)
+::after = depois do determinado conteúdo
+content: "" = colocar conteúdo dentro do pseudo-elemento, pode ser depois se você colocar o ::after
+::
+> sinal de children = filho
+outline = contorno dentro de margin / contorno e/ou traçado
+box-level = Caixa se inicia em nova linha e ocupado toda a tela
+inline-level = Inicia na linha restante e não quebra linha
+
+margin = ultimo grau da hierarquia
+padding = margem interna, espaço do conteudo até a borda
+border = margem externa, espaço após o padding
+centralizar caaixa = margin: auto
+outline = borda após a margem, não altera a margem 
+shorthands
+alterar box-level para inline ou vice-versa
+display = block (Box level) or inline (Inline Block)
+básico de sites
+header = Cabeçalho
+main = conteúdo
+footer = rodapé
+nav = menus
+conteúdo segundário = aside
+Variaveis em CSS = :root (OBS: As variaveis em sí, devem começar por dois traços, ex abaixo;
+:root{--cor0 : #c5ebd6}
+seletor universal no CSS (Seleciona TODOS os elementos) = *{}
+transition-duration: 1s = duração do background :hover em segundos quando passar o mouse por cima
+transition-delay: 1s = delay ao passar o mouse por cima de algo
+line-height = espaçamento entre linhas
+list-style-position INSIDE or OUTSIDE = Colocar as bolinhas para dentro ou fora do documento
+columns = número de colunas em uma lista
+list-style-type: ""; = alterar a bolinha para outro emoji, no emoji usar "" em uma \ antes do código
+espaço sem quebra = \00A0 = NBSp
+-----------------------
+background-size:contain = mostra toda a imagem separando-a por barras pretas
+background-size:cover = corta a imagem, mas, mostra ela toda de forma que não distorce a mesma
+background attachment fixed = deixar fundo fixo
+------------------------------
+ex de centralização vertical de caixa
+<style>#conteiner{background-color: darkolivegreen;position: relative;height: 93vh;padding: 10px;}
+       #conteudo{background-color: darkkhaki;position: absolute;height: 200px;width: 400px;left: 50%;top: 50%;
+	   translate: -50% -50%;}</style>
+box-shadow: inset = sombra para dentro
+----------------------------------------
+hierarquia de tabela simples
+Table = Tabela
+	Table row = Linha de tabela    = tag tr
+		table header = Cabeçalho de tabela
+		Table Data - Dado de tabela  = tag td
+border-collapse: collapse; = tirar espacinho de bora, exemplo ex023
+vertical-align = Para posicionamento de dados em uma linha de uma tábela
+Estrutura de uma tabela com muitos dados
+caption = Legenda da tabela
+table = Tabela
+theader = Cebeça da tabela
+	tr = linha da tabela
+		th = Cabeça do cabeçalho da tabela
+tbody = Corpo da tabela
+	tr = Linha da tabela
+		td = dado da tabela
+tfoot = Pé da tabela
+	tr = Linha da tabela
+		th = th = Cabeça do pé da tabela
+scope="col" = Indicar que se refere a um título de colunas
+scope="row" = Indicar que se refere a um título de linha (que o correspondente se encontra na mesma linha
+scope="colgroup" Necessário quando o título se utiliza de mais de uma coluna
+scope="rowgroup" Necessário quando o título se utiliza de mais de uma linha 
+
+:nth-child(2n) = Colocar efeito zebrado (Com linhas de diferentes cores), 2n = Número de linhas o qual irá pular
+-----------
+Tabela, cabeçalho movel para que o título sempre fique
+table = position relative
+
+table > tr > rh = position sticky e top = 0px colocar mesmo bakground-color do título da coluna em sí
+célula ocupar mais de uma coluna = colspan "número de colunas"
+célula ocupar mais de uma linha = rowspan = "número de linhas
+PAG 225
