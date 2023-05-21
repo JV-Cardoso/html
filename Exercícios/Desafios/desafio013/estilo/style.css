@@ -1,7 +1,7 @@
 @charset "UTF-8";
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 html, body{
@@ -31,4 +31,11 @@ section#celular{
     translate: -50% -50%;
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
+}
+iframe.home-celular{
+    position: relative;
+    height: 477px;
+    width: 269px;
+    top: 12.8%;
+    left: 7.2%;
 }
