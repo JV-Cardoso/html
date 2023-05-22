@@ -51,9 +51,9 @@ section#home2 img{
     border-radius: 50%;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     right: 664px;
-    top: 497px;
+    top: 597px;
 }
 section#redes{
     line-height: 50px;
