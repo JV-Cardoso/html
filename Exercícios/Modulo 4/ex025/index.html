@@ -8,20 +8,28 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="post">
+    <form autocomplete="on" autocapitalize="off" action="cadastro.php" method="post">
         <p>
             <label for="iusu">Usuário:</label>
-            <input type="text" name="usu" id="iusu" required>
+            <input autocomplete="username" type="text" name="usu" id="iusu" required minlength="10" maxlength="40" size="40" placeholder="Nome do usuário">
         </p>
         <p>
             <label for="isen">Senha: </label>
-            <input type="password" name="isen" id="isen" required re>
+            <input autocomplete="current-password" type="password" name="isen" id="isen" required minlength="5" maxlength="35" size="40" placeholder="Password **">
+        </p>
+        <p>
+            <label for="dnas">Data de Nascimento:</label> <input type="date" name="dnas" id="dnas">
+            <p>
+                Não sou um Robô: 
+                <input type="checkbox" name="robo" id="robo" size="50">
+            </p>
         </p>
         <p>
             <input type="submit" value="ENVIAR">
             <input type="reset" value="LIMPAR">
             
         </p>
+
     </form>
 </body>
 </html>
