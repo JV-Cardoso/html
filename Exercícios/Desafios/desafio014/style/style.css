@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main > section > div{
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 450px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    top: 52%;
+    left: 33%;
+    translate: -50% -50%;
+    height: 320px;
+}
+main > section > div > h1{
+    padding: 20px;
+    font-size: 1.5em;
+}
+main p{
+    padding-bottom: 15px;
+}
+
+form > input{
+    width: 430px;
+    height: 30px;
+    border-radius: 10px;
+    line-height: 100px;
+    background-color: lightblue;
+    color: white;
+}
+
+.senha{
+    line-height: 15px;
+    height: 35px;
+}
+#entrar{
+    position: relative;
+    color: white;
+    background-color: red;
+}
+#esqueci{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+main > section > div.imagem{
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+
+}
