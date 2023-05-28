@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* GLOBAIS */
+*{padding: 0%;
+margin: 0%;}
+
+/*CORPO*/
+body{
+    background-color: black;
+}
+    
+
+/*CABEÇA*/
+header{
+    color: white;
+    padding: 60px;
+    text-align: center;
+    min-height: 150px;}
+header > h1{
+    font-family:'Arial','Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 8vw;
+    padding-bottom: 30px;
+    font-variant: small-caps;}
+header p{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;}
+header strong:hover{
+    text-decoration: underline;}
+
+/*CONTEUDO*/
+main{
+    background-color: white;
+    box-shadow: 0px -10px 1px rgba(255, 255, 255, 0.979);
+    min-width: auto;
+    padding-right: 100%;
+}
+main p{
+    line-height: 15vh;
+    font-size: 4vw;
+    text-align: left;
+    padding-left: 35px;
+    min-width: 50vw;
+    min-height: 400px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+main article p.p1{
+    padding-top: 60px;
+    padding-bottom: 80px;}
+main article p.p2{
+        padding-top: 60px;}
+
+    /*IMAGEM 1 E ESCRITAS DAS IMAGENS 1 E 2*/
+div.flor{background-image: url(imagens/background001.jpg);
+    min-width: 96.7vw;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-position: right center;
+    background-size: 140%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    position: relative;
+    box-shadow: inset 1px 5px 10px rgba(0, 0, 0, 0.705);
+   
+}
+
+div.letra{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 30px;
+    padding-right: 25px;
+    border-radius: 30px;
+    text-shadow: 2px 1px 1px black;
+}
+    
+
+    /* IMAGEM 2 E ESCRITA*/
+div.livro{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-position: right bottom;
+    
+    background-size: 140%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 96.7vw;
+    position: relative;
+
+}
+
+/* RODAPE */
+footer p,a{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;}
+footer a:hover{
+text-decoration: underline;
+padding: 8px;
+border-radius: 10px;
+background-color: lightgray;
+transition-duration: 2s;}
+footer a:active{
+    text-decoration: underline;
+padding: 8px;
+border-radius: 10px;
+background-color: darkgray;}
