@@ -1,3 +1,21 @@
 @charset "UTF-8";
 
 /* Orientação Total */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: plum;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 0px purple;
+    padding: 15px;
+}
