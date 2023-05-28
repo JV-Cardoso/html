@@ -7,11 +7,16 @@
     <title>Forml</title>
 </head>
 <body>
-    <h1>My gFirst Form</h1>
+    <h1>My First Form</h1>
     <form action="cadastro.php">
-        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
-        <p> <label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><label for="inome">Nome:</label> <input required type="text" min name="nome" id="inome"></p>
+        <p> <label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" min="0"></p>
         <input type="submit" value="ENVIAR">
+        <select name="" id="">
+            <option value="">ads</option>
+    
+            <option value="">pmm</option>
+        </select>
     </form>
 </body>
 </html>
