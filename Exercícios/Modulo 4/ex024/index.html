@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>My First Form</h1>
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="post">
         <p><label for="inome">Nome:</label> <input required type="text" min name="nome" id="inome"></p>
         <p> <label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" min="0"></p>
         <input type="submit" value="ENVIAR">
@@ -25,9 +25,9 @@
             <input type="checkbox" name="func2" id="ifunc2" checked><label for="ifunc2">Função2</label>
         </fieldset>
         <fieldset>
-            <legend>ESTADO</legend>
+            <legend>ESTADOS</legend>
             <label for="iestado">Estados</label>
-            <select name="estado" id="iestado">
+            <select name="estado" id="iestado" required>
                 <option value="SP">São Paulo</option>
                 <option value="RJ">Rio de Janeiro</option>
                 <option value="RS">Rio Grande do Sul</option>
@@ -39,9 +39,31 @@
                 <option value="PE">Pernambuco</option>
                 <option value="PA">Pará</option>
                 <option value="CE">Ceara</option>
-
-            </select>
+                </select>
         </fieldset>
+
+        <fieldset>
+            <legend >profission</legend>
+            <label for="iprof"></label>
+            <input type="text" name="profission" id="iprof" list="profs" placeholder="Escolha sua proffisão">
+            <datalist id="profs">
+                <option value="TI">Tecnico de informatica</option>
+                <option value="ADM">ADM</option>
+                <option value="Contab">Contab</option>
+                <option value="Financeiro">Financeiro</option>
+                <option value="Tesouraria">Tesouraria</option>
+                <option value="Contas a receber">Contas a receber</option>
+                <option value="Contas a Pagar">Contas a Pagar</option>
+                <option value="RH">RH</option>
+                <option value="Motorista">Motorista</option>
+                <option value="Cobrador">Cobrador</option>
+                <option value="Escala">Escala</option>
+                <option value="Estatistica">Estatistica</option>
+            </datalist>          
+            </fieldset>
+        <p><label for="iyou">Diga um pouco sobre vocÊ:</label> <br>
+            <textarea name="Voce" id="iyou" cols="30" rows="10"></textarea>
+        </p>
     </form>
 </body>
 </html>
