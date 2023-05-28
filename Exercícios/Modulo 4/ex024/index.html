@@ -12,11 +12,18 @@
         <p><label for="inome">Nome:</label> <input required type="text" min name="nome" id="inome"></p>
         <p> <label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" min="0"></p>
         <input type="submit" value="ENVIAR">
-        <select name="" id="">
-            <option value="">ads</option>
-    
-            <option value="">pmm</option>
-        </select>
+        <p><label for="itel">Phone number:</label> <input type="tel" name="TEL" id="itel" value="+55 (51) 9 9251-1736"></p>
+        <p><label for="imail">E-mail address:</label> <input type="email" name="mail" id="imail" value="joao.cardoso@ouroeprata.com" autocomplete="email"></p>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="sexmas" checked><label for="sexmas">Masculino</label>
+            <input type="radio" name="sexo" id="sexfem"><label for="sexfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Funções</legend>
+            <input type="checkbox" name="func" id="ifunc"><label for="ifunc">Função1</label>
+            <input type="checkbox" name="func2" id="ifunc2" checked><label for="ifunc2">Função2</label>
+        </fieldset>
     </form>
 </body>
 </html>
