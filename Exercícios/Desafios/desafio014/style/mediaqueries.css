@@ -19,6 +19,9 @@
        #entrar, #esqueci{
         margin-left: 50px;
        }
+       .mail{
+        margin-left: 3px;
+       }
 }
 
 @media screen and (min-width: 992px){
@@ -35,7 +38,8 @@
     #entrar, #esqueci{
         margin-left: 78px;}
     .mail{
-        margin-left: 3px;
+        margin-left: 5px;
+        
     }
     p{font-size: 1.5em;}
     h1{font-size: 2.5em;}
