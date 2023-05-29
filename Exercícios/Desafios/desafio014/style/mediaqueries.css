@@ -3,6 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
        section.login{
         width: 80vw;
+        height: 50vh;
        }  
 
        section.login > div.imagem{
@@ -11,22 +12,32 @@
         height: 100%;
        }
        section.login > div.form{
+        margin-top: 50px;
         float: right;
         width: 50%;
+       }
+       #entrar, #esqueci{
+        margin-left: 50px;
        }
 }
 
 @media screen and (min-width: 992px){
     section.login{
-        width: 990px;
-    }
+        width: 990px;}
     section.login > div.imagem{
         float: left;
         width: 45%;
-        height: 100%;
-    }
+        height: 100%;}
     section.login > div.form{
+        margin-top: 10vh;
         float: right;
         width: 52%;}
-
-}
+    #entrar, #esqueci{
+        margin-left: 78px;}
+    .mail{
+        margin-left: 3px;
+    }
+    p{font-size: 1.5em;}
+    h1{font-size: 2.5em;}
+    form{font-size: 1.5em;
+    margin-top: 20px;}}
