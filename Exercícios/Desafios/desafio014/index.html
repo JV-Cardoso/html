@@ -14,11 +14,13 @@
             <div class="imagem">
             </div>
             <div class="form">
-                <h1>Login</h1>
+                <h1>Login</h1> <hr>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="Cadastro.php" method="post">
-                    <input type="email" name="mail" id="mail" placeholder="seu e-mail"><br>
-                    <input type="password" name="senha" id="senha" placeholder="sua senha"><br>
+                    <label for="mail">Login: </label>
+                    <input type="email" name="mail" id="mail" placeholder="seu e-mail"  autocomplete="email" required maxlength="30"><br>
+                    <label for="senha">Senha: </label>
+                    <input required minlength="4" maxlength="30" type="password" name="senha" id="senha" placeholder="sua senha" autocomplete="current-password"><br>
                     <input type="submit" value="Entrar" class="senha" id="entrar"> <br>
                     <input type="submit" value="Esqueci a senha" class="senha" id="esqueci">
                 </form>

@@ -29,13 +29,13 @@ section.login{
     overflow: hidden;
 
     width: 250px;
-    height: 500px;
+    height: 550px;
     background-color: black;
     border-radius: 15px;
     box-shadow: 0px 0px 10px black;
 
     transition: width .5s, height .5s;
-    
+
     
 }
 .imagem{
@@ -61,16 +61,26 @@ input{
     border-radius: 5px;
     line-height: 10px;
     height: 30px;
+    margin-bottom: 5px;
 }
 #entrar, #esqueci{
     width: 235px;
     height: 35px;
-    line-height: 10px;
     color: white;
     background-color: red;
+    border: 1px solid white;
 }
 #esqueci{
     border: 1px solid white;
     background-color: black;
     color: white;
+}
+p{
+    margin-top: 5px;
+    font-size: 0.8em;
+    margin-bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.097)
+}
+#irobo{
+    
 }
