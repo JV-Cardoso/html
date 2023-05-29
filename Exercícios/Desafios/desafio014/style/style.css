@@ -21,25 +21,29 @@ main{
     position: relative;
 }
 
-main > section.login{
+section.login{
     position: absolute;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
+    overflow: hidden;
+
     width: 250px;
     height: 500px;
     background-color: black;
     border-radius: 15px;
-    overflow: hidden;
     box-shadow: 0px 0px 10px black;
+    
 }
 .imagem{
+    display: block;
     background-image: url(../imagens/fundo-madeira.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
 }
 div.form{
+    display: block;
     background-color: black;
     color: white;
     padding: 10px;
