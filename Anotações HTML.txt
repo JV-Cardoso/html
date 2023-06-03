@@ -223,3 +223,45 @@ table > tr > rh = position sticky e top = 0px colocar mesmo bakground-color do t
 célula ocupar mais de uma coluna = colspan "número de colunas"
 célula ocupar mais de uma linha = rowspan = "número de linhas
 PAG 225
+
+tag colgroup = Manipulação de colunas
+esconder barra de rolagem =::-webkit-scrollbar{width: 0px;height: 0px;
+--------
+formulario
+formulário simples = tag form
+Caixinha de form simples = input:text 
+caixinha de enviar no form simples = input:submit
+autocomplete="off" = Desligar as opções de auto-completar
+Label = Fazer relação de seu nome á seu input, OBRIGATORIO
+method="GET" = Método padrão, aparece form na URL, dados não sensiveis, até 3k de bites aprox 3 mil letras, 
+method="POST" = Form não aparece na URL, dados sensiveis, para arquivos, mais de 3k de bites, 
+input:password = Utilizado para senhas, caracteristica de não aparecer o colocado
+input:reset = Caixinha LIMPAR
+atributo: required = Obrigatoriedade de campos
+maxlength e minlength = mínimo e máximo de caracteres no formulário
+placeholder=colocar dica no form
+input:number = Somente número | input:time = Hora | input:month = Mês | input:day
+Informação já aparecer no formulário, atributo: value="VALOR PADRÃO DE ACORDO COM O FORM"
+Autocompletar opção com o tipo dela = autocomplete="TIPO DE INFORMAÇÃO"
+fieldset = AGRUPAMENTO DE INFORMAÇÕES NO FORMULÁRIO
+Legend = legenda do agrupamento de informações do form
+Deixar opção já marcada em checkbox e botão de radio = checked
+input:file = Enviar arquivos e imagens USAR METODO POST
+input:range = barra que vai aumentando
+input:color = controle de cores
+optgroup e após, label="" = Colocar atributo para as opções em questão do select option
+----------------
+Media queries;
+Media type = Screen (TELA)   | = print (IMPRESSORA) |   =all (TODOS)
+Media features = (orientation:portrait) |   = (orientation:landscape)
+alterar o ícone do mouse ao passar o mouse por cima = cursos: pointer
+
+/*Typycal devices breakpoints
+--------------------
+
+pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktops: de 992px até 1200px
+TV:acima de 1200px  -------------------*/
+overflow: hidden: = Tudo que estiver fora da borda, irá ficar escondido
